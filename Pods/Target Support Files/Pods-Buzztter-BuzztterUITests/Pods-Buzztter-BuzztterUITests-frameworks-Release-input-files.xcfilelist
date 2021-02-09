@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Buzztter-BuzztterUITests/Pods-Buzztter-BuzztterUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ImageViewer/ImageViewer.framework
+${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/Swifter/Swifter.framework

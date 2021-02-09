@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F0D49B4A576C5097637D13C /* Pods_BuzztterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D1FFAC43E6AED29A771891 /* Pods_BuzztterTests.framework */; };
+		BB4506F225A7F67D00716700 /* GalleryDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4506F125A7F67D00716700 /* GalleryDelegate.swift */; };
+		BB4B583E25A5CDB9007B23BF /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4B583D25A5CDB9007B23BF /* TweetTableViewCell.swift */; };
+		BB4B584325A5CDD0007B23BF /* TweetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4B584225A5CDD0007B23BF /* TweetListViewController.swift */; };
+		BB4B585125A5EE3C007B23BF /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4B585025A5EE3C007B23BF /* Tweet.swift */; };
+		BBF0855925A894F3001576E3 /* IsResisteredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF0855825A894F3001576E3 /* IsResisteredViewController.swift */; };
+		BBFBC55825A58A8C00D70598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC55725A58A8C00D70598 /* AppDelegate.swift */; };
+		BBFBC55A25A58A8C00D70598 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC55925A58A8C00D70598 /* SceneDelegate.swift */; };
+		BBFBC55C25A58A8C00D70598 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC55B25A58A8C00D70598 /* AuthorizationViewController.swift */; };
+		BBFBC55F25A58A8C00D70598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBFBC55D25A58A8C00D70598 /* Main.storyboard */; };
+		BBFBC56125A58A8D00D70598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBFBC56025A58A8D00D70598 /* Assets.xcassets */; };
+		BBFBC56425A58A8D00D70598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBFBC56225A58A8D00D70598 /* LaunchScreen.storyboard */; };
+		BBFBC56F25A58A8D00D70598 /* BuzztterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC56E25A58A8D00D70598 /* BuzztterTests.swift */; };
+		BBFBC57A25A58A8D00D70598 /* BuzztterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFBC57925A58A8D00D70598 /* BuzztterUITests.swift */; };
+		BD37BFB47A1DE0B10185F005 /* Pods_Buzztter_BuzztterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D27396584BDA28110633538 /* Pods_Buzztter_BuzztterUITests.framework */; };
+		FF1C7A0520874AC4C8352CD9 /* Pods_Buzztter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 206948B6834368713120962C /* Pods_Buzztter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBFBC56B25A58A8D00D70598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBFBC54C25A58A8C00D70598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBFBC55325A58A8C00D70598;
+			remoteInfo = Buzztter;
+		};
+		BBFBC57625A58A8D00D70598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBFBC54C25A58A8C00D70598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBFBC55325A58A8C00D70598;
+			remoteInfo = Buzztter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		060E44F5FB9A04F62774C091 /* Pods-BuzztterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuzztterTests.release.xcconfig"; path = "Target Support Files/Pods-BuzztterTests/Pods-BuzztterTests.release.xcconfig"; sourceTree = "<group>"; };
+		0D27396584BDA28110633538 /* Pods_Buzztter_BuzztterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Buzztter_BuzztterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		206948B6834368713120962C /* Pods_Buzztter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Buzztter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A91317DF1DC8DCE5CEE4F8E /* Pods-Buzztter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buzztter.debug.xcconfig"; path = "Target Support Files/Pods-Buzztter/Pods-Buzztter.debug.xcconfig"; sourceTree = "<group>"; };
+		A6D1FFAC43E6AED29A771891 /* Pods_BuzztterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuzztterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E3B7D415471821A705E988 /* Pods-Buzztter-BuzztterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buzztter-BuzztterUITests.debug.xcconfig"; path = "Target Support Files/Pods-Buzztter-BuzztterUITests/Pods-Buzztter-BuzztterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB4506F125A7F67D00716700 /* GalleryDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryDelegate.swift; sourceTree = "<group>"; };
+		BB4B583D25A5CDB9007B23BF /* TweetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
+		BB4B584225A5CDD0007B23BF /* TweetListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetListViewController.swift; sourceTree = "<group>"; };
+		BB4B585025A5EE3C007B23BF /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		BBF0855825A894F3001576E3 /* IsResisteredViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsResisteredViewController.swift; sourceTree = "<group>"; };
+		BBFBC55425A58A8C00D70598 /* Buzztter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Buzztter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBFBC55725A58A8C00D70598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBFBC55925A58A8C00D70598 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BBFBC55B25A58A8C00D70598 /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
+		BBFBC55E25A58A8C00D70598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBFBC56025A58A8D00D70598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBFBC56325A58A8D00D70598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBFBC56525A58A8D00D70598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBFBC56A25A58A8D00D70598 /* BuzztterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuzztterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBFBC56E25A58A8D00D70598 /* BuzztterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuzztterTests.swift; sourceTree = "<group>"; };
+		BBFBC57025A58A8D00D70598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBFBC57525A58A8D00D70598 /* BuzztterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuzztterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBFBC57925A58A8D00D70598 /* BuzztterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuzztterUITests.swift; sourceTree = "<group>"; };
+		BBFBC57B25A58A8D00D70598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3EC79612DE3FD14B075B8DD /* Pods-Buzztter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buzztter.release.xcconfig"; path = "Target Support Files/Pods-Buzztter/Pods-Buzztter.release.xcconfig"; sourceTree = "<group>"; };
+		C70EC4DEA92BFE9D58D871F7 /* Pods-Buzztter-BuzztterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buzztter-BuzztterUITests.release.xcconfig"; path = "Target Support Files/Pods-Buzztter-BuzztterUITests/Pods-Buzztter-BuzztterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FD1D041D6D71C708C9A9C28E /* Pods-BuzztterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuzztterTests.debug.xcconfig"; path = "Target Support Files/Pods-BuzztterTests/Pods-BuzztterTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBFBC55125A58A8C00D70598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1C7A0520874AC4C8352CD9 /* Pods_Buzztter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBFBC56725A58A8D00D70598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F0D49B4A576C5097637D13C /* Pods_BuzztterTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBFBC57225A58A8D00D70598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD37BFB47A1DE0B10185F005 /* Pods_Buzztter_BuzztterUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F4320167E33ABEF02DA549F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A91317DF1DC8DCE5CEE4F8E /* Pods-Buzztter.debug.xcconfig */,
+				C3EC79612DE3FD14B075B8DD /* Pods-Buzztter.release.xcconfig */,
+				B3E3B7D415471821A705E988 /* Pods-Buzztter-BuzztterUITests.debug.xcconfig */,
+				C70EC4DEA92BFE9D58D871F7 /* Pods-Buzztter-BuzztterUITests.release.xcconfig */,
+				FD1D041D6D71C708C9A9C28E /* Pods-BuzztterTests.debug.xcconfig */,
+				060E44F5FB9A04F62774C091 /* Pods-BuzztterTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BBFBC54B25A58A8C00D70598 = {
+			isa = PBXGroup;
+			children = (
+				BBFBC55625A58A8C00D70598 /* Buzztter */,
+				BBFBC56D25A58A8D00D70598 /* BuzztterTests */,
+				BBFBC57825A58A8D00D70598 /* BuzztterUITests */,
+				BBFBC55525A58A8C00D70598 /* Products */,
+				3F4320167E33ABEF02DA549F /* Pods */,
+				DB6156D1EE0304016862C685 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BBFBC55525A58A8C00D70598 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBFBC55425A58A8C00D70598 /* Buzztter.app */,
+				BBFBC56A25A58A8D00D70598 /* BuzztterTests.xctest */,
+				BBFBC57525A58A8D00D70598 /* BuzztterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBFBC55625A58A8C00D70598 /* Buzztter */ = {
+			isa = PBXGroup;
+			children = (
+				BBFBC55725A58A8C00D70598 /* AppDelegate.swift */,
+				BBFBC55925A58A8C00D70598 /* SceneDelegate.swift */,
+				BB4B585025A5EE3C007B23BF /* Tweet.swift */,
+				BB4B583D25A5CDB9007B23BF /* TweetTableViewCell.swift */,
+				BB4506F125A7F67D00716700 /* GalleryDelegate.swift */,
+				BB4B584225A5CDD0007B23BF /* TweetListViewController.swift */,
+				BBFBC55B25A58A8C00D70598 /* AuthorizationViewController.swift */,
+				BBF0855825A894F3001576E3 /* IsResisteredViewController.swift */,
+				BBFBC55D25A58A8C00D70598 /* Main.storyboard */,
+				BBFBC56025A58A8D00D70598 /* Assets.xcassets */,
+				BBFBC56225A58A8D00D70598 /* LaunchScreen.storyboard */,
+				BBFBC56525A58A8D00D70598 /* Info.plist */,
+			);
+			path = Buzztter;
+			sourceTree = "<group>";
+		};
+		BBFBC56D25A58A8D00D70598 /* BuzztterTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBFBC56E25A58A8D00D70598 /* BuzztterTests.swift */,
+				BBFBC57025A58A8D00D70598 /* Info.plist */,
+			);
+			path = BuzztterTests;
+			sourceTree = "<group>";
+		};
+		BBFBC57825A58A8D00D70598 /* BuzztterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBFBC57925A58A8D00D70598 /* BuzztterUITests.swift */,
+				BBFBC57B25A58A8D00D70598 /* Info.plist */,
+			);
+			path = BuzztterUITests;
+			sourceTree = "<group>";
+		};
+		DB6156D1EE0304016862C685 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				206948B6834368713120962C /* Pods_Buzztter.framework */,
+				0D27396584BDA28110633538 /* Pods_Buzztter_BuzztterUITests.framework */,
+				A6D1FFAC43E6AED29A771891 /* Pods_BuzztterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBFBC55325A58A8C00D70598 /* Buzztter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBFBC57E25A58A8D00D70598 /* Build configuration list for PBXNativeTarget "Buzztter" */;
+			buildPhases = (
+				ACFA4F64280C643BA4BBFCD8 /* [CP] Check Pods Manifest.lock */,
+				BBFBC55025A58A8C00D70598 /* Sources */,
+				BBFBC55125A58A8C00D70598 /* Frameworks */,
+				BBFBC55225A58A8C00D70598 /* Resources */,
+				D2B8BC311E00321D15964305 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Buzztter;
+			productName = Buzztter;
+			productReference = BBFBC55425A58A8C00D70598 /* Buzztter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBFBC56925A58A8D00D70598 /* BuzztterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBFBC58125A58A8D00D70598 /* Build configuration list for PBXNativeTarget "BuzztterTests" */;
+			buildPhases = (
+				095ED8547EA0A45EF5FF2651 /* [CP] Check Pods Manifest.lock */,
+				BBFBC56625A58A8D00D70598 /* Sources */,
+				BBFBC56725A58A8D00D70598 /* Frameworks */,
+				BBFBC56825A58A8D00D70598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBFBC56C25A58A8D00D70598 /* PBXTargetDependency */,
+			);
+			name = BuzztterTests;
+			productName = BuzztterTests;
+			productReference = BBFBC56A25A58A8D00D70598 /* BuzztterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBFBC57425A58A8D00D70598 /* BuzztterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBFBC58425A58A8D00D70598 /* Build configuration list for PBXNativeTarget "BuzztterUITests" */;
+			buildPhases = (
+				7D2A8C6FFF3B0D483B55B21E /* [CP] Check Pods Manifest.lock */,
+				BBFBC57125A58A8D00D70598 /* Sources */,
+				BBFBC57225A58A8D00D70598 /* Frameworks */,
+				BBFBC57325A58A8D00D70598 /* Resources */,
+				CCD289B03A707F1B467601BB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBFBC57725A58A8D00D70598 /* PBXTargetDependency */,
+			);
+			name = BuzztterUITests;
+			productName = BuzztterUITests;
+			productReference = BBFBC57525A58A8D00D70598 /* BuzztterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBFBC54C25A58A8C00D70598 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					BBFBC55325A58A8C00D70598 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					BBFBC56925A58A8D00D70598 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = BBFBC55325A58A8C00D70598;
+					};
+					BBFBC57425A58A8D00D70598 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = BBFBC55325A58A8C00D70598;
+					};
+				};
+			};
+			buildConfigurationList = BBFBC54F25A58A8C00D70598 /* Build configuration list for PBXProject "Buzztter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBFBC54B25A58A8C00D70598;
+			productRefGroup = BBFBC55525A58A8C00D70598 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBFBC55325A58A8C00D70598 /* Buzztter */,
+				BBFBC56925A58A8D00D70598 /* BuzztterTests */,
+				BBFBC57425A58A8D00D70598 /* BuzztterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBFBC55225A58A8C00D70598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFBC56425A58A8D00D70598 /* LaunchScreen.storyboard in Resources */,
+				BBFBC56125A58A8D00D70598 /* Assets.xcassets in Resources */,
+				BBFBC55F25A58A8C00D70598 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBFBC56825A58A8D00D70598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBFBC57325A58A8D00D70598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		095ED8547EA0A45EF5FF2651 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuzztterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D2A8C6FFF3B0D483B55B21E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Buzztter-BuzztterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACFA4F64280C643BA4BBFCD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Buzztter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCD289B03A707F1B467601BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Buzztter-BuzztterUITests/Pods-Buzztter-BuzztterUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Buzztter-BuzztterUITests/Pods-Buzztter-BuzztterUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Buzztter-BuzztterUITests/Pods-Buzztter-BuzztterUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2B8BC311E00321D15964305 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Buzztter/Pods-Buzztter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Buzztter/Pods-Buzztter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Buzztter/Pods-Buzztter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBFBC55025A58A8C00D70598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF0855925A894F3001576E3 /* IsResisteredViewController.swift in Sources */,
+				BBFBC55C25A58A8C00D70598 /* AuthorizationViewController.swift in Sources */,
+				BB4506F225A7F67D00716700 /* GalleryDelegate.swift in Sources */,
+				BBFBC55825A58A8C00D70598 /* AppDelegate.swift in Sources */,
+				BBFBC55A25A58A8C00D70598 /* SceneDelegate.swift in Sources */,
+				BB4B585125A5EE3C007B23BF /* Tweet.swift in Sources */,
+				BB4B584325A5CDD0007B23BF /* TweetListViewController.swift in Sources */,
+				BB4B583E25A5CDB9007B23BF /* TweetTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBFBC56625A58A8D00D70598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFBC56F25A58A8D00D70598 /* BuzztterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBFBC57125A58A8D00D70598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFBC57A25A58A8D00D70598 /* BuzztterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBFBC56C25A58A8D00D70598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBFBC55325A58A8C00D70598 /* Buzztter */;
+			targetProxy = BBFBC56B25A58A8D00D70598 /* PBXContainerItemProxy */;
+		};
+		BBFBC57725A58A8D00D70598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBFBC55325A58A8C00D70598 /* Buzztter */;
+			targetProxy = BBFBC57625A58A8D00D70598 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBFBC55D25A58A8C00D70598 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBFBC55E25A58A8C00D70598 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBFBC56225A58A8D00D70598 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBFBC56325A58A8D00D70598 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBFBC57C25A58A8D00D70598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBFBC57D25A58A8D00D70598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBFBC57F25A58A8D00D70598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A91317DF1DC8DCE5CEE4F8E /* Pods-Buzztter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MTQ5H3G29;
+				INFOPLIST_FILE = Buzztter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kouyamamoto.Buzztter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBFBC58025A58A8D00D70598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3EC79612DE3FD14B075B8DD /* Pods-Buzztter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MTQ5H3G29;
+				INFOPLIST_FILE = Buzztter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kouyamamoto.Buzztter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BBFBC58225A58A8D00D70598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD1D041D6D71C708C9A9C28E /* Pods-BuzztterTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MTQ5H3G29;
+				INFOPLIST_FILE = BuzztterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kouyamamoto.BuzztterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Buzztter.app/Buzztter";
+			};
+			name = Debug;
+		};
+		BBFBC58325A58A8D00D70598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 060E44F5FB9A04F62774C091 /* Pods-BuzztterTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MTQ5H3G29;
+				INFOPLIST_FILE = BuzztterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kouyamamoto.BuzztterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Buzztter.app/Buzztter";
+			};
+			name = Release;
+		};
+		BBFBC58525A58A8D00D70598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3E3B7D415471821A705E988 /* Pods-Buzztter-BuzztterUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MTQ5H3G29;
+				INFOPLIST_FILE = BuzztterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kouyamamoto.BuzztterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Buzztter;
+			};
+			name = Debug;
+		};
+		BBFBC58625A58A8D00D70598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C70EC4DEA92BFE9D58D871F7 /* Pods-Buzztter-BuzztterUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MTQ5H3G29;
+				INFOPLIST_FILE = BuzztterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kouyamamoto.BuzztterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Buzztter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBFBC54F25A58A8C00D70598 /* Build configuration list for PBXProject "Buzztter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBFBC57C25A58A8D00D70598 /* Debug */,
+				BBFBC57D25A58A8D00D70598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBFBC57E25A58A8D00D70598 /* Build configuration list for PBXNativeTarget "Buzztter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBFBC57F25A58A8D00D70598 /* Debug */,
+				BBFBC58025A58A8D00D70598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBFBC58125A58A8D00D70598 /* Build configuration list for PBXNativeTarget "BuzztterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBFBC58225A58A8D00D70598 /* Debug */,
+				BBFBC58325A58A8D00D70598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBFBC58425A58A8D00D70598 /* Build configuration list for PBXNativeTarget "BuzztterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBFBC58525A58A8D00D70598 /* Debug */,
+				BBFBC58625A58A8D00D70598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBFBC54C25A58A8C00D70598 /* Project object */;
+}

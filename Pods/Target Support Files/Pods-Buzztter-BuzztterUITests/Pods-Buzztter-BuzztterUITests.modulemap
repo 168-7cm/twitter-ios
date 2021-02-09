@@ -1,0 +1,6 @@
+framework module Pods_Buzztter_BuzztterUITests {
+  umbrella header "Pods-Buzztter-BuzztterUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
